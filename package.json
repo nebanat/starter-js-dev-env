@@ -1,0 +1,50 @@
+{
+  "name": "starter-js-dev-env",
+  "version": "1.0.0",
+  "description": "Standard Javascript development environment ",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "babel-node buildScripts/startMessage.js",
+    "start": "babel-node buildScripts/srcServer.js ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "security-check": "nsp check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nebanat/starter-js-dev-env.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Development"
+  ],
+  "author": "Aaron Biliyok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nebanat/starter-js-dev-env/issues"
+  },
+  "homepage": "https://github.com/nebanat/starter-js-dev-env#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chalk": "^2.1.0",
+    "css-loader": "^0.28.7",
+    "express": "^4.15.5",
+    "html-webpack-plugin": "^2.30.1",
+    "npm-run-all": "^4.1.1",
+    "numeral": "^2.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.19.1",
+    "webpack-md5-hash": "0.0.5"
+  },
+  "dependencies": {
+    "express": "^4.15.5",
+    "open": "0.0.5",
+    "path": "^0.12.7"
+  }
+}
